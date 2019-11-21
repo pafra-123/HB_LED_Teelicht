@@ -67,23 +67,40 @@ Die besten Ergebnisse habe ich damit erzielt, die Platine für ein paar Minuten 
 <br>
 
 #### 2. Fuses und Bootloader flashen:
+Das Flashen der Fuses und des Bootloaders erfolgt über die Lötaugen von J5.<br>
+Die Pinbelegung ist auf der Platine aufgedruckt.<br>
+Man muss sich lediglich ein Adapterkabel für den In Circuit Programmer anfertigen.<br>
+<br>
+Das Flashen erfolgt mit folgenden Befehlen.<br>
+Die Pfade sind ggf. entsprechend anzupassen.<br>
+<code>asdf</code>
 
 #### 3. Einlöten der Stiftleisten:
+Nun werden die Stiftleisten von Funkmodul (IC1) und den Board to Board Verbinder (J2) bestückt.<br>
+Die Stiftleisten werden beide auf der Bestückseite gesetzt.<br>
+<br>
+Siehe Bild:<br>
+<img src="images/LED_Teelicht_Haupt_PCB_02.jpg">
+<br>
 
 #### 4. Funkmodul auflöten:
 
 #### 5. Flacker-LED einlöten:
+<br>
 
-#### 6. Sketch flashen:
+### Sketch flashen:
+Der nächste Schritt ist das Flashen des Sketches.<br>
+Das Vorgehen ist auf [asksinpp.de/Grundlagen/02_software](https://asksinpp.de/Grundlagen/02_software.html) beschrieben.<br>
+<br>
 
-#### 7. Amlernen und erster Test:
+### Anlernen und erster Test:
 Vor dem Einbau in das Gehäuse sollte man das LED-Teelicht erst einmal auf Funktion testen.
 Hierzu empfehle ich folgende Vorgehensweise:
-1. Hauptplatine auf die Batterieplatine aufstecken<br>
-2. FTDI-Adapter anschließen und den seriellen Monitor in der Arduino IDE öffnen. Nun sollten die üblichen Ausgaben auf der Konsole kommen<br>
+1. Hauptplatine auf die Batterieplatine aufstecken
+2. FTDI-Adapter anschließen und den seriellen Monitor in der Arduino IDE öffnen. Nun sollten die üblichen Ausgaben auf der Konsole kommen
 3. Den Config-Taster auf der Batterieplatine so lange drücken, bis in der Konsole "Reset" kommt (wird auch durch schnelles Blinken an der LED angezeigt)
 4. Nun lässt sich die Flacker-LED durch kurzen Druck auf den Config-Taster ein- bzw. ausschalten.
-5. Die HM-Zentrale in den Anlernmodus bringen
+5. Die HM-Zentrale in den Anlernmodus bringen.
 6. Den Config-Taster so lange drücken, bis die LED zu blinken beginnt.
 7. Wenn alles funktioniert, dann sollte sich das LED-Teelicht anlernen und als Schaltaktor in der HM-Zentrale sichtbar werden.
 8. Über die WebUI kann das LED-Teelicht nun geschaltet werden.
