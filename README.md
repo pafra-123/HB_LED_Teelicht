@@ -34,6 +34,10 @@ Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 ### Benötigte Bauteile für Batterieplatine:
 | Anzahl | Ref | Typ | Bezeichnung |
 |----|----|----|----|
+| 1 | BT1 | CR2477 | Batteriehalter CR2477 |
+| 1 | J1 | Schalter | 3pol. Schiebeschalter |
+| 1 | J2 | Buchsenleise RM2,00 |  |
+1 | SW1 | SMD-Taster | Config-Taster
 <br>
 
 ## Aufbau:
@@ -43,3 +47,4 @@ Im ersten Schritt werden die SMD-Bauteile auf der Hauptplatine bestückt.<br>
 Speziell beim Atmega ist es wichtig, dass es keine Kurzschlüsse gibt.<br>
 Ich empfehle nach dem Löten die Platine mit einem Leiterplattenreiniger gründlich zu reinigen (besonders im Bereicht vom Atmega).<br>
 Die besten Ergebnisse habe ich damit erzielt, die Platine für ein paar Minuten in Leiterplattenreiniger einzulegen und mit einem Pinsel gründlich zu reinigen.<br>
+<img src="images/LED_Teelicht_Haupt_PCB_01.jpg">
