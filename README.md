@@ -6,16 +6,16 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 
 <img src="images/LED_Teelicht_02.jpg">
 
-### Beschreibung:
+## Beschreibung:
 Diese Projekt beschreibt den Aufbau eines LED Teelichts / einer LED Kerze mit Homematic-Anbindung.<br>
 Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 <br>
-### Platinen:
+## Platinen:
 <img src="images/LED_Teelicht_PCBs.jpg">
 <br>
 
-### Bauteile:
-#### Benötigte Bauteile für Hauptplatine:
+## Bauteile:
+### Benötigte Bauteile für Hauptplatine:
 | Anzahl | Ref | Typ | Bezeichnung |
 |----|----|----|----|
 1 | U1 | AVR | [ATMega 328P-AU](https://www.reichelt.de/mcu-atmega-avr-risc-32-kb-20-mhz-tqfp-32-atmega-328p-au-p119684.html)
@@ -31,6 +31,6 @@ Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 1 | SW1 | SMD-Taster | Reset-Taster (Optinal)
 <br>
 
-#### Benötigte Bauteile für Batterieplatine:
+### Benötigte Bauteile für Batterieplatine:
 | Anzahl | Ref | Typ | Bezeichnung |
 |----|----|----|----|
