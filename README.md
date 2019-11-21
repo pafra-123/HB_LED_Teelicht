@@ -28,9 +28,18 @@ Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 3 | C1,C2,C4 | Kondensator 100nF 0805 | [X7R-G0805 100N](https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html)
 1 | C3 | Kondensator 10µF 0805 | [X5R-G0805 10/16](https://www.reichelt.de/smd-vielschichtkondensator-g0805-10-f-16v-x5r-g0805-10-16-p89734.html)
 1 | J2 | Stiftleise RM2,00 | [MPE 150-1-004](https://www.reichelt.de/stiftleisten-2-00-mm-1x04-gerade-mpe-150-1-004-p119965.html)
-1 | SW1 | SMD-Taster | Reset-Taster (Optinal)
+1 | SW1 | SMD-Taster | Reset-Taster (optional)
 <br>
 
 ### Benötigte Bauteile für Batterieplatine:
 | Anzahl | Ref | Typ | Bezeichnung |
 |----|----|----|----|
+<br>
+
+## Aufbau:
+### Hauptplatine:
+#### 1. Bestücken der SMD-Bauteile:
+Im ersten Schritt werden die SMD-Bauteile auf der Hauptplatine bestückt.<br>
+Speziell beim Atmega ist es wichtig, dass es keine Kurzschlüsse gibt.<br>
+Ich empfehle nach dem Löten die Platine mit einem Leiterplattenreiniger gründlich zu reinigen (besonders im Bereicht vom Atmega).<br>
+Die besten Ergebnisse habe ich damit erzielt, die Platine für ein paar Minuten in Leiterplattenreiniger einzulegen und mit einem Pinsel gründlich zu reinigen.<br>
