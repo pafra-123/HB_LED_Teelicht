@@ -10,6 +10,13 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 Diese Projekt beschreibt den Aufbau eines LED Teelichts / einer LED Kerze mit Homematic-Anbindung.<br>
 Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 <br>
+
+## Funktionen:
+3pol Schiebeschalter auf der Batterieplatine: Ein- und Ausschalter (trennt die Batteriespannung)<br>
+SW1 auf der Batterieplatine: Config-Taster & manuelles Ein- und Ausschalten der Flacker-LED<br>
+SW1 auf der Hautplatine: Reset-Taster (optional)<br>
+<br>
+
 ## Platinen:
 <img src="images/LED_Teelicht_PCBs.jpg">
 <br>
