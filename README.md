@@ -20,6 +20,7 @@ Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 |----|----|----|----|
 1 | U1 | AVR | [ATMega 328P-AU](https://www.reichelt.de/mcu-atmega-avr-risc-32-kb-20-mhz-tqfp-32-atmega-328p-au-p119684.html)
 1 | IC1 | Funkmodul | Funkmodul CC1101 868MHz
+1 | IC1 | Stiftleise RM2,00 | [BKL 10120732](https://www.reichelt.de/stiftleiste-2-00mm-1x8-gerade-bkl-10120732-p262754.html)
 1 | D1 | LED | 3mm Flacker-LED
 1 | D2 | SMD LED rot 1206 | [RND 135-00188](https://www.reichelt.de/led-smd-1206-rot-115-mcd-rnd-135-00188-p263784.html)
 1 | R1 | Widerstand 10k 0805 | [RND 0805 1 10K](https://www.reichelt.de/smd-widerstand-0805-10-kohm-125-mw-1-rnd-0805-1-10k-p183251.html)
@@ -35,12 +36,20 @@ Ziel war, dass die Kerze im Durchmesser einem regulären Teelicht entspricht<br>
 | Anzahl | Ref | Typ | Bezeichnung |
 |----|----|----|----|
 | 1 | BT1 | CR2477 | Batteriehalter CR2477 |
-| 1 | J1 | Schalter | 3pol. Schiebeschalter |
-| 1 | J2 | Buchsenleise RM2,00 |  |
+| 1 | J1 | 3pol. Schiebeschalter | [SS ESP101](https://www.reichelt.de/schiebeschalter-1x-um-stehend-print-rm-2-54-ss-esp101-p112178.html)|
+| 1 | J2 | Buchsenleise RM2,00 | [MPE 156-1-004](https://www.reichelt.de/buchsenleisten-2-00-mm-1x04-gerade-mpe-156-1-004-p119985.html) |
 1 | SW1 | SMD-Taster | Config-Taster
 <br>
 
 ## Aufbau:
+### Batterieplatine:
+Das Bestücken der Batterieplatine ist relativ einfach erklärt.<br>
+Man sollte die Bauteile in dieser Reihenfolge auflöten:<br>
+1. CR2477 Batteriehalter einlöten<br>
+2. 3pol Schiebeschalter und Config-Taster auflöten<br>
+3. 4pol Buchsenleiste auf der Lötseite einlöten (steht dann nach unten)<br>
+<br>
+
 ### Hauptplatine:
 #### 1. Bestücken der SMD-Bauteile:
 Im ersten Schritt werden die SMD-Bauteile auf der Hauptplatine bestückt.<br>
@@ -48,3 +57,34 @@ Speziell beim Atmega ist es wichtig, dass es keine Kurzschlüsse gibt.<br>
 Ich empfehle nach dem Löten die Platine mit einem Leiterplattenreiniger gründlich zu reinigen (besonders im Bereicht vom Atmega).<br>
 Die besten Ergebnisse habe ich damit erzielt, die Platine für ein paar Minuten in Leiterplattenreiniger einzulegen und mit einem Pinsel gründlich zu reinigen.<br>
 <img src="images/LED_Teelicht_Haupt_PCB_01.jpg">
+<br>
+
+#### 2. Fuses und Bootloader flashen:
+
+#### 3. Einlöten der Stiftleisten:
+
+#### 4. Funkmodul auflöten:
+
+#### 5. Flacker-LED einlöten:
+
+#### 6. Sketch flashen:
+
+#### 7. Amlernen und erster Test:
+Vor dem Einbau in das Gehäuse sollte man das LED-Teelicht erst einmal auf Funktion testen.
+Hierzu empfehle ich folgende Vorgehensweise:
+1. Hauptplatine auf die Batterieplatine aufstecken<br>
+2. FTDI-Adapter anschließen und den seriellen Monitor in der Arduino IDE öffnen. Nun sollten die üblichen Ausgaben auf der Konsole kommen<br>
+3. Den Config-Taster auf der Batterieplatine so lange drücken, bis in der Konsole "Reset" kommt (wird auch durch schnelles Blinken an der LED angezeigt)
+4. Nun lässt sich die Flacker-LED durch kurzen Druck auf den Config-Taster ein- bzw. ausschalten.
+5. Die HM-Zentrale in den Anlernmodus bringen
+6. Den Config-Taster so lange drücken, bis die LED zu blinken beginnt.
+7. Wenn alles funktioniert, dann sollte sich das LED-Teelicht anlernen und als Schaltaktor in der HM-Zentrale sichtbar werden.
+8. Über die WebUI kann das LED-Teelicht nun geschaltet werden.
+<br>
+
+### Einbau in das Gehäuse:
+#### 1. Hauptplatine einbauen:
+
+#### 2. Batterieplatine einbauen:
+
+#### 3. Deckel aufschrauben:
