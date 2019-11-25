@@ -86,6 +86,7 @@ Siehe Bild:<br>
 
 #### 4. Funkmodul auflöten:
 Das Antennekabel (~8,3cm Länge) muss wie auf dem Bild angelötet werden.<br>
+Das Funkmodul ganz auf die Stiftleiste aufschieben und anlöten. Anschließend die Pins bis zur Lötstelle kürzen.<br>
 <img src="images/20191121_222112.jpg" width="500">
 <br>
 
@@ -125,7 +126,20 @@ Hierzu empfehle ich folgende Vorgehensweise:
 
 ### Einbau in das Gehäuse:
 #### 1. Hauptplatine einbauen:
+Vor dem Einbau der Hautplatine sollte die Antenne des Funkmoduls in etwa so um die LED platiert werden.<br>
+Hintergrund ist, dass sich das Kabel beim Hineinschieben in das Gehäuse nicht zwischen Platine und Anschraubfläche schieben kann.<br>
+<img src="images/20191124_230027.jpg" width="500">
+<br>
+Die Platine nun vorsichtig, wie auf dem Bild zu sehen ist, in das Gehäuse hinein schieben.<br>
+Hierbei keinen Druck auf das Funkmodul ausüben!<br>
+Anschließend mit zwei Schrauben (2,2 x ca. 5mm) anschrauben.<br>
+<img src="images/20191124_230113.jpg" width="500">
+<br>
 
 #### 2. Batterieplatine einbauen:
+Nun erfolgt der Einbau der Batterieplatine.<br>
+Hier ist eigentlich nur darauf zu achten, dass der Board to Board Verbinder Kontakt hat und keine Pins verbogen werden.<br>
+<img src="images/20191124_230201.jpg" width="500">
+<br>
 
 #### 3. Deckel aufschrauben:
