@@ -84,8 +84,24 @@ Siehe Bild:<br>
 <br>
 
 #### 4. Funkmodul auflöten:
+Das Antennekabel (~8,3cm Länge) muss wie auf dem Bild angelötet werden.<br>
+<img src="images/20191121_222112.jpg" width="500">
+<br>
 
 #### 5. Flacker-LED einlöten:
+Bei der Erstellung der Gerber-Daten ist leider genau hier etwas schief gegangen.<br>
+Deshalb muss die LED anders als geplant aufgelötet werden.<br>
+Zuerst muss die LED wie auf dem nächsten Bild abgeschnitten bzw. ein Pin gebogen werden.<br>
+Der Pin an der abgeschrägten Seite der LED muss bei ca. 12mm um 90 Grad gebogen werden. Richting siehe Bild.
+Der zweite Pin muss um ca. 1mm länger sein.<br>
+<img src="images/20191121_222249.jpg" width="500">
+<br>
+<br>
+
+Anschließend die LED so wie auf dem Bild von oben auflöten.<br>
+Der umgebogene Pin wird mit C3 verlötet.<br>
+Beim Einlöten der LED ist darauf zu achten, dass diese mittig nach oben steht, damit sie später in die Flamme rutschen kann.<br>
+<img src="images/20191124_205335.jpg" width="500">
 <br>
 
 ### Sketch flashen:
