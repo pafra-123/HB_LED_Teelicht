@@ -55,6 +55,7 @@ Man sollte die Bauteile in dieser Reihenfolge auflöten:<br>
 1. CR2477 Batteriehalter einlöten<br>
 2. 3pol Schiebeschalter und Config-Taster auflöten<br>
 3. 4pol Buchsenleiste auf der Lötseite einlöten (steht dann nach unten)<br>
+<img src="images/20191121_222055.jpg" width="500">
 <br>
 
 ### Hauptplatine:
