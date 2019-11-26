@@ -74,9 +74,10 @@ Man muss sich lediglich ein Adapterkabel für den In Circuit Programmer anfertig
 <br>
 Das Flashen erfolgt mit folgenden Befehlen.<br>
 Die Pfade sind ggf. entsprechend anzupassen.<br>
-<code>cd C:\Program Files (x86)\Arduino\hardware\tools\avr\bin</code><br>
-<code>.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFE:m</code><br>
-<code>.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U flash:w:..\..\..\arduino\avr\bootloaders\atmega\ATmegaBOOT_168_atmega328_pro_8MHz.hex</code><br>
+cd C:\Program Files (x86)\Arduino\hardware\tools\avr\bin<br>
+.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFE:m<br>
+.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U<br> flash:w:..\..\..\arduino\avr\bootloaders\atmega\ATmegaBOOT_168_atmega328_pro_8MHz.hex<br>
+<br>
 
 #### 3. Einlöten der Stiftleisten:
 Nun werden die Stiftleisten von Funkmodul (IC1) und den Board to Board Verbinder (J2) bestückt.<br>
