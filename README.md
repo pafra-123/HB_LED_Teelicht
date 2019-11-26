@@ -132,7 +132,7 @@ Dementsprechend muss die Zeile so geändert werden:<br>
 
 <b>Anschluss des FTDI-Adapters:</b>
 <br>
-<img src="images/Anschluss_FTDI.jpg" width="500">
+<img src="images/Anschluss_FTDI.jpg">
 <br>
 
 ### Anlernen und erster Test:
