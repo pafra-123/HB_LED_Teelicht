@@ -115,6 +115,25 @@ Beim Einlöten der LED ist darauf zu achten, dass diese mittig nach oben steht, 
 Der nächste Schritt ist das Flashen des Sketches.<br>
 Das Vorgehen ist auf [asksinpp.de/Grundlagen/02_software](https://asksinpp.de/Grundlagen/02_software.html) beschrieben.<br>
 <br>
+Ich habe den Sketch vom 1-fach Batterie-Schaltaktor "HM-LC-SW1-BA-PCB" verwendet.<br>
+Der Sketch von pa-pa ist hier abrufbar:<br>
+[https://github.com/pa-pa/AskSinPP/blob/master/examples/HM-LC-SW1-BA-PCB/](https://github.com/pa-pa/AskSinPP/blob/master/examples/HM-LC-SW1-BA-PCB/)
+<br>
+<br>
+
+<b>Sketch anpassen:</b>
+<br>
+Im Sketch muss noch der Schalt-Pin überprüft und ggf. angepasst werden.<br>
+Der Transistor hängt auf der Universalplatine auf Pin 14.
+Dementsprechend muss die Zeile so geändert werden:<br>
+<code>#define RELAY1_PIN 14</code>
+<br>
+<br>
+
+<b>Anschluss des FTDI-Adapters:</b>
+<br>
+<img src="images/Anschluss_FTDI.jpg" width="500">
+<br>
 
 ### Anlernen und erster Test:
 Vor dem Einbau in das Gehäuse sollte man das LED-Teelicht erst einmal auf Funktion testen.
