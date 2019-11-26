@@ -76,8 +76,9 @@ Das Flashen erfolgt mit folgenden Befehlen.<br>
 Die Pfade sind ggf. entsprechend anzupassen.<br>
 <code>cd C:\Program Files (x86)\Arduino\hardware\tools\avr\bin</code>
 <br>
-<code>.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFE:m</code><br>
-.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U<br> flash:w:..\..\..\arduino\avr\bootloaders\atmega\ATmegaBOOT_168_atmega328_pro_8MHz.hex<br>
+<code>.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFE:m</code>
+<br>
+<code>.\avrdude -C ..\etc\avrdude.conf -v -p m328p -P com10 -c stk500v1 -b 19200 -U flash:w:..\..\..\arduino\avr\bootloaders\atmega\ATmegaBOOT_168_atmega328_pro_8MHz.hex</code>
 <br>
 
 #### 3. Einlöten der Stiftleisten:
