@@ -126,8 +126,19 @@ Der Sketch von pa-pa ist hier abrufbar:<br>
 Im Sketch muss noch der Schalt-Pin überprüft und ggf. angepasst werden.<br>
 Der Transistor hängt auf der Universalplatine auf Pin 14.
 Dementsprechend muss die Zeile so geändert werden:<br>
-<code>#define RELAY1_PIN 14</code>
+<code>#define CONFIG_BUTTON_PIN 14</code>
 <br>
+Außerdem empfiehlt sich dieser Zusatz nach dieser Zeile im Sketch:<br>
+<code>uint8_t lowbat = getList0().lowBatLimit();</code>
+<br>
+Hier diese Zeile einfügen:<br>
+<code>lowbat = lowbat/3;</code>
+<br>
+Dadurch kann später in den Geräteeinstellungen ein Wert für die Low-Bat-Meldung eingetragen werden.<br>
+Der gewünschte Wert muss dann mit 3 multipliziert werden.<br>
+<br>
+Beispiel:<br>
+Lowbat soll bei 2,5V kommen. --> 7,5V in der WebUi eintragen.<br>
 <br>
 
 <b>Anschluss des FTDI-Adapters:</b>
