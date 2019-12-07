@@ -21,6 +21,11 @@ SW1 auf der Hautplatine: Reset-Taster (optional)<br>
 <img src="images/LED_Teelicht_PCBs.jpg">
 <br>
 
+## Gehäuse:
+Das Gehäuse hat Tonischabloni erstellt und ist auf Thingiverse:<br>
+[https://www.thingiverse.com/thing:3974933](https://www.thingiverse.com/thing:3974933)<br>
+<br>
+
 ## Bauteile:
 ### Benötigte Bauteile für Hauptplatine:
 | Anzahl | Ref | Typ | Bezeichnung |
