@@ -21,6 +21,10 @@ SW1 auf der Hautplatine: Reset-Taster (optional)<br>
 <img src="images/LED_Teelicht_PCBs.jpg">
 <br>
 
+## Schaltplan:
+[Schematics_LED-Teelicht_v1.0.pdf](Schematics_LED-Teelicht_v1.0.pdf)<br>
+<br>
+
 ## Gehäuse:
 Das Gehäuse hat Tonischabloni erstellt und ist auf Thingiverse:<br>
 [https://www.thingiverse.com/thing:3974933](https://www.thingiverse.com/thing:3974933)<br>
