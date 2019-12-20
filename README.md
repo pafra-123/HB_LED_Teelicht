@@ -158,7 +158,7 @@ Lowbat soll bei 2,5V kommen. --> 7,5V in der WebUi eintragen.<br>
 ### Anlernen und erster Test:
 Vor dem Einbau in das Gehäuse sollte man das LED-Teelicht erst einmal auf Funktion testen.
 Hierzu empfehle ich folgende Vorgehensweise:
-1. Hauptplatine auf die Batterieplatine aufstecken
+1. Hauptplatine auf die Batterieplatine (ohne eingelegte Batterie) aufstecken
 2. FTDI-Adapter anschließen und den seriellen Monitor in der Arduino IDE öffnen. Nun sollten die üblichen Ausgaben auf der Konsole kommen
 3. Den Config-Taster auf der Batterieplatine so lange drücken, bis in der Konsole "Reset" kommt (wird auch durch schnelles Blinken an der LED angezeigt)
 4. Nun lässt sich die Flacker-LED durch kurzen Druck auf den Config-Taster ein- bzw. ausschalten.
