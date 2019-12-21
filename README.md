@@ -135,8 +135,8 @@ Der Sketch von pa-pa ist hier abrufbar:<br>
 Im Sketch muss noch der Schalt-Pin überprüft und ggf. angepasst werden.<br>
 Der Transistor hängt auf der Universalplatine auf Pin 14.
 Dementsprechend müssen diese beiden Zeilen so geändert werden:<br>
-<code>#define CONFIG_BUTTON_PIN 14</code>
-<code>#define RELAY1_PIN 6</code>
+<code>#define CONFIG_BUTTON_PIN 14</code><br>
+<code>#define RELAY1_PIN 6</code><br>
 <br>
 Außerdem empfiehlt sich dieser Zusatz nach dieser Zeile im Sketch:<br>
 <code>uint8_t lowbat = getList0().lowBatLimit();</code>
