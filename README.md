@@ -20,7 +20,7 @@ SW1 auf der Hautplatine: Reset-Taster (optional)<br>
 ## Platinen:
 <img src="images/LED_Teelicht_PCBs.jpg">
 <br>
-:bangbang: <b>Wichtiger Hinweis: Die Platinen müssen mit 1,2 mm Dicke bestellt werden. Das Gehäuse ist auf diese Stärke der PCB ausgelegt worden!</b><br>
+:bangbang: <b>Wichtiger Hinweis: Die Platinen müssen mit 1,2 mm Dicke bestellt werden. Das Gehäuse ist auf diese Stärke der PCB ausgelegt worden!</b> :bangbang:<br>
 <br>
   
 ## Schaltplan:
